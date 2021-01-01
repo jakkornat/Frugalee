@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECE12115259F7AAA009D654E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE12114259F7AAA009D654E /* Tests_iOS.swift */; };
+		ECE12120259F7AAA009D654E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1211F259F7AAA009D654E /* Tests_macOS.swift */; };
+		ECE12122259F7AAA009D654E /* FrugaleeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE120F9259F7AA9009D654E /* FrugaleeApp.swift */; };
+		ECE12123259F7AAA009D654E /* FrugaleeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE120F9259F7AA9009D654E /* FrugaleeApp.swift */; };
+		ECE12124259F7AAA009D654E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE120FA259F7AA9009D654E /* ContentView.swift */; };
+		ECE12125259F7AAA009D654E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE120FA259F7AA9009D654E /* ContentView.swift */; };
+		ECE12126259F7AAA009D654E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE120FB259F7AAA009D654E /* Assets.xcassets */; };
+		ECE12127259F7AAA009D654E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE120FB259F7AAA009D654E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECE12111259F7AAA009D654E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE120F4259F7AA9009D654E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE120FF259F7AAA009D654E;
+			remoteInfo = "Frugalee (iOS)";
+		};
+		ECE1211C259F7AAA009D654E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE120F4259F7AA9009D654E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE12107259F7AAA009D654E;
+			remoteInfo = "Frugalee (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECE120F9259F7AA9009D654E /* FrugaleeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrugaleeApp.swift; sourceTree = "<group>"; };
+		ECE120FA259F7AA9009D654E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECE120FB259F7AAA009D654E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECE12100259F7AAA009D654E /* Frugalee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frugalee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE12103259F7AAA009D654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE12108259F7AAA009D654E /* Frugalee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frugalee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE1210A259F7AAA009D654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE1210B259F7AAA009D654E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		ECE12110259F7AAA009D654E /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE12114259F7AAA009D654E /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		ECE12116259F7AAA009D654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE1211B259F7AAA009D654E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE1211F259F7AAA009D654E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		ECE12121259F7AAA009D654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECE120FD259F7AAA009D654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE12105259F7AAA009D654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE1210D259F7AAA009D654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE12118259F7AAA009D654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECE120F3259F7AA9009D654E = {
+			isa = PBXGroup;
+			children = (
+				ECE120F8259F7AA9009D654E /* Shared */,
+				ECE12102259F7AAA009D654E /* iOS */,
+				ECE12109259F7AAA009D654E /* macOS */,
+				ECE12113259F7AAA009D654E /* Tests iOS */,
+				ECE1211E259F7AAA009D654E /* Tests macOS */,
+				ECE12101259F7AAA009D654E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE120F8259F7AA9009D654E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ECE120F9259F7AA9009D654E /* FrugaleeApp.swift */,
+				ECE120FA259F7AA9009D654E /* ContentView.swift */,
+				ECE120FB259F7AAA009D654E /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ECE12101259F7AAA009D654E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE12100259F7AAA009D654E /* Frugalee.app */,
+				ECE12108259F7AAA009D654E /* Frugalee.app */,
+				ECE12110259F7AAA009D654E /* Tests iOS.xctest */,
+				ECE1211B259F7AAA009D654E /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE12102259F7AAA009D654E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ECE12103259F7AAA009D654E /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		ECE12109259F7AAA009D654E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ECE1210A259F7AAA009D654E /* Info.plist */,
+				ECE1210B259F7AAA009D654E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		ECE12113259F7AAA009D654E /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ECE12114259F7AAA009D654E /* Tests_iOS.swift */,
+				ECE12116259F7AAA009D654E /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		ECE1211E259F7AAA009D654E /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ECE1211F259F7AAA009D654E /* Tests_macOS.swift */,
+				ECE12121259F7AAA009D654E /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECE120FF259F7AAA009D654E /* Frugalee (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE1212A259F7AAA009D654E /* Build configuration list for PBXNativeTarget "Frugalee (iOS)" */;
+			buildPhases = (
+				ECE120FC259F7AAA009D654E /* Sources */,
+				ECE120FD259F7AAA009D654E /* Frameworks */,
+				ECE120FE259F7AAA009D654E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frugalee (iOS)";
+			productName = "Frugalee (iOS)";
+			productReference = ECE12100259F7AAA009D654E /* Frugalee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECE12107259F7AAA009D654E /* Frugalee (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE1212D259F7AAA009D654E /* Build configuration list for PBXNativeTarget "Frugalee (macOS)" */;
+			buildPhases = (
+				ECE12104259F7AAA009D654E /* Sources */,
+				ECE12105259F7AAA009D654E /* Frameworks */,
+				ECE12106259F7AAA009D654E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frugalee (macOS)";
+			productName = "Frugalee (macOS)";
+			productReference = ECE12108259F7AAA009D654E /* Frugalee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECE1210F259F7AAA009D654E /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE12130259F7AAA009D654E /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				ECE1210C259F7AAA009D654E /* Sources */,
+				ECE1210D259F7AAA009D654E /* Frameworks */,
+				ECE1210E259F7AAA009D654E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE12112259F7AAA009D654E /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = ECE12110259F7AAA009D654E /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ECE1211A259F7AAA009D654E /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE12133259F7AAA009D654E /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				ECE12117259F7AAA009D654E /* Sources */,
+				ECE12118259F7AAA009D654E /* Frameworks */,
+				ECE12119259F7AAA009D654E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE1211D259F7AAA009D654E /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = ECE1211B259F7AAA009D654E /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE120F4259F7AA9009D654E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					ECE120FF259F7AAA009D654E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					ECE12107259F7AAA009D654E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					ECE1210F259F7AAA009D654E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ECE120FF259F7AAA009D654E;
+					};
+					ECE1211A259F7AAA009D654E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ECE12107259F7AAA009D654E;
+					};
+				};
+			};
+			buildConfigurationList = ECE120F7259F7AA9009D654E /* Build configuration list for PBXProject "Frugalee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECE120F3259F7AA9009D654E;
+			productRefGroup = ECE12101259F7AAA009D654E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE120FF259F7AAA009D654E /* Frugalee (iOS) */,
+				ECE12107259F7AAA009D654E /* Frugalee (macOS) */,
+				ECE1210F259F7AAA009D654E /* Tests iOS */,
+				ECE1211A259F7AAA009D654E /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECE120FE259F7AAA009D654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE12126259F7AAA009D654E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE12106259F7AAA009D654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE12127259F7AAA009D654E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE1210E259F7AAA009D654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE12119259F7AAA009D654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE120FC259F7AAA009D654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE12124259F7AAA009D654E /* ContentView.swift in Sources */,
+				ECE12122259F7AAA009D654E /* FrugaleeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE12104259F7AAA009D654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE12125259F7AAA009D654E /* ContentView.swift in Sources */,
+				ECE12123259F7AAA009D654E /* FrugaleeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE1210C259F7AAA009D654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE12115259F7AAA009D654E /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE12117259F7AAA009D654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE12120259F7AAA009D654E /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECE12112259F7AAA009D654E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE120FF259F7AAA009D654E /* Frugalee (iOS) */;
+			targetProxy = ECE12111259F7AAA009D654E /* PBXContainerItemProxy */;
+		};
+		ECE1211D259F7AAA009D654E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE12107259F7AAA009D654E /* Frugalee (macOS) */;
+			targetProxy = ECE1211C259F7AAA009D654E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECE12128259F7AAA009D654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECE12129259F7AAA009D654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ECE1212B259F7AAA009D654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TC435J3GN5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kornatowski.Frugalee;
+				PRODUCT_NAME = Frugalee;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECE1212C259F7AAA009D654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TC435J3GN5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kornatowski.Frugalee;
+				PRODUCT_NAME = Frugalee;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECE1212E259F7AAA009D654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TC435J3GN5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kornatowski.Frugalee;
+				PRODUCT_NAME = Frugalee;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ECE1212F259F7AAA009D654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TC435J3GN5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kornatowski.Frugalee;
+				PRODUCT_NAME = Frugalee;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ECE12131259F7AAA009D654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TC435J3GN5;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kornatowski.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Frugalee (iOS)";
+			};
+			name = Debug;
+		};
+		ECE12132259F7AAA009D654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TC435J3GN5;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kornatowski.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Frugalee (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECE12134259F7AAA009D654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TC435J3GN5;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kornatowski.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Frugalee (macOS)";
+			};
+			name = Debug;
+		};
+		ECE12135259F7AAA009D654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TC435J3GN5;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kornatowski.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Frugalee (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE120F7259F7AA9009D654E /* Build configuration list for PBXProject "Frugalee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE12128259F7AAA009D654E /* Debug */,
+				ECE12129259F7AAA009D654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE1212A259F7AAA009D654E /* Build configuration list for PBXNativeTarget "Frugalee (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE1212B259F7AAA009D654E /* Debug */,
+				ECE1212C259F7AAA009D654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE1212D259F7AAA009D654E /* Build configuration list for PBXNativeTarget "Frugalee (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE1212E259F7AAA009D654E /* Debug */,
+				ECE1212F259F7AAA009D654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE12130259F7AAA009D654E /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE12131259F7AAA009D654E /* Debug */,
+				ECE12132259F7AAA009D654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE12133259F7AAA009D654E /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE12134259F7AAA009D654E /* Debug */,
+				ECE12135259F7AAA009D654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECE120F4259F7AA9009D654E /* Project object */;
+}
