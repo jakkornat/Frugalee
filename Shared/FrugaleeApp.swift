@@ -11,7 +11,7 @@ import SwiftUI
 struct FrugaleeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView().environmentObject(Store(reducer: appReducer(state:action:)))
         }
     }
 }

@@ -11,10 +11,22 @@
 		ECE12120259F7AAA009D654E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1211F259F7AAA009D654E /* Tests_macOS.swift */; };
 		ECE12122259F7AAA009D654E /* FrugaleeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE120F9259F7AA9009D654E /* FrugaleeApp.swift */; };
 		ECE12123259F7AAA009D654E /* FrugaleeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE120F9259F7AA9009D654E /* FrugaleeApp.swift */; };
-		ECE12124259F7AAA009D654E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE120FA259F7AA9009D654E /* ContentView.swift */; };
-		ECE12125259F7AAA009D654E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE120FA259F7AA9009D654E /* ContentView.swift */; };
+		ECE12124259F7AAA009D654E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE120FA259F7AA9009D654E /* HomeView.swift */; };
+		ECE12125259F7AAA009D654E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE120FA259F7AA9009D654E /* HomeView.swift */; };
 		ECE12126259F7AAA009D654E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE120FB259F7AAA009D654E /* Assets.xcassets */; };
 		ECE12127259F7AAA009D654E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE120FB259F7AAA009D654E /* Assets.xcassets */; };
+		ECE1213B259F7DDC009D654E /* NewSpendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1213A259F7DDC009D654E /* NewSpendingView.swift */; };
+		ECE1213C259F7DDC009D654E /* NewSpendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1213A259F7DDC009D654E /* NewSpendingView.swift */; };
+		ECE1214325A10715009D654E /* Spending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1214225A10715009D654E /* Spending.swift */; };
+		ECE1214425A10715009D654E /* Spending.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1214225A10715009D654E /* Spending.swift */; };
+		ECE1214F25A10759009D654E /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1214E25A10759009D654E /* Reducer.swift */; };
+		ECE1215025A10759009D654E /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1214E25A10759009D654E /* Reducer.swift */; };
+		ECE1215A25A10769009D654E /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1215925A10769009D654E /* AppAction.swift */; };
+		ECE1215B25A10769009D654E /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1215925A10769009D654E /* AppAction.swift */; };
+		ECE1216125A1077E009D654E /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1216025A1077E009D654E /* Store.swift */; };
+		ECE1216225A1077E009D654E /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1216025A1077E009D654E /* Store.swift */; };
+		ECE1216825A10790009D654E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1216725A10790009D654E /* AppState.swift */; };
+		ECE1216925A10790009D654E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE1216725A10790009D654E /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +48,7 @@
 
 /* Begin PBXFileReference section */
 		ECE120F9259F7AA9009D654E /* FrugaleeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrugaleeApp.swift; sourceTree = "<group>"; };
-		ECE120FA259F7AA9009D654E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECE120FA259F7AA9009D654E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ECE120FB259F7AAA009D654E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECE12100259F7AAA009D654E /* Frugalee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frugalee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE12103259F7AAA009D654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +61,12 @@
 		ECE1211B259F7AAA009D654E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE1211F259F7AAA009D654E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		ECE12121259F7AAA009D654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE1213A259F7DDC009D654E /* NewSpendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSpendingView.swift; sourceTree = "<group>"; };
+		ECE1214225A10715009D654E /* Spending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spending.swift; sourceTree = "<group>"; };
+		ECE1214E25A10759009D654E /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		ECE1215925A10769009D654E /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		ECE1216025A1077E009D654E /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		ECE1216725A10790009D654E /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +116,10 @@
 		ECE120F8259F7AA9009D654E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				ECE1216E25A107C3009D654E /* Views */,
+				ECE1214D25A1074E009D654E /* Composable */,
+				ECE1214125A10705009D654E /* Models */,
 				ECE120F9259F7AA9009D654E /* FrugaleeApp.swift */,
-				ECE120FA259F7AA9009D654E /* ContentView.swift */,
 				ECE120FB259F7AAA009D654E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -149,6 +169,34 @@
 				ECE12121259F7AAA009D654E /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		ECE1214125A10705009D654E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECE1214225A10715009D654E /* Spending.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECE1214D25A1074E009D654E /* Composable */ = {
+			isa = PBXGroup;
+			children = (
+				ECE1214E25A10759009D654E /* Reducer.swift */,
+				ECE1215925A10769009D654E /* AppAction.swift */,
+				ECE1216025A1077E009D654E /* Store.swift */,
+				ECE1216725A10790009D654E /* AppState.swift */,
+			);
+			path = Composable;
+			sourceTree = "<group>";
+		};
+		ECE1216E25A107C3009D654E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECE120FA259F7AA9009D654E /* HomeView.swift */,
+				ECE1213A259F7DDC009D654E /* NewSpendingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +356,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE12124259F7AAA009D654E /* ContentView.swift in Sources */,
+				ECE1216125A1077E009D654E /* Store.swift in Sources */,
+				ECE12124259F7AAA009D654E /* HomeView.swift in Sources */,
+				ECE1215A25A10769009D654E /* AppAction.swift in Sources */,
+				ECE1216825A10790009D654E /* AppState.swift in Sources */,
+				ECE1214325A10715009D654E /* Spending.swift in Sources */,
+				ECE1213B259F7DDC009D654E /* NewSpendingView.swift in Sources */,
+				ECE1214F25A10759009D654E /* Reducer.swift in Sources */,
 				ECE12122259F7AAA009D654E /* FrugaleeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +371,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE12125259F7AAA009D654E /* ContentView.swift in Sources */,
+				ECE1216225A1077E009D654E /* Store.swift in Sources */,
+				ECE12125259F7AAA009D654E /* HomeView.swift in Sources */,
+				ECE1215B25A10769009D654E /* AppAction.swift in Sources */,
+				ECE1216925A10790009D654E /* AppState.swift in Sources */,
+				ECE1214425A10715009D654E /* Spending.swift in Sources */,
+				ECE1213C259F7DDC009D654E /* NewSpendingView.swift in Sources */,
+				ECE1215025A10759009D654E /* Reducer.swift in Sources */,
 				ECE12123259F7AAA009D654E /* FrugaleeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
